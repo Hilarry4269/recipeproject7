@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>HAK project 7</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">HAK Group 7</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#aboutUs">About us</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#contactUs">Contact Us</a></li>
+        </ul>
+    </header>
+    <!-- home -->
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1>Home Cooked <br> Recipes</h1>
+            <p>We are a team of passionate cooks who have come together to create this
+                recipe website. Our goal is to share our love for cooking and provide
+                delicious recipes for everyone to enjoy.</p>
+            <a href="#" class="home-btn"> Get started</a>
+
+        </div>
+
+    </section>
+
+    <!-- container -->
+    <section class="container" id="aboutUs">
+        <div class="text">
+            <h2> Our Team | Group 7</h2>
+
+        </div>
+
+        <div class="row-items">
+            <div class="container-box">
+                <div class="container-img">
+                    <img src="http://www.w3schools.com/w3css/img_avatar6.png" alt="sample">
+                    
+                </div>
+                <h4>Alma</h4>
+                <p>we are a team</p>
+            </div>
+
+            <div class="container-box">
+                <div class="container-img">
+                    <img src="./img_avatar.png" alt="sample">
+                    
+                </div>
+                <h4>Arky</h4>
+                <p>we are a team</p>
+            </div>
+
+            <div class="container-box">
+                <div class="container-img">
+                    <img src="./img_avatar.png" alt="sample">
+                    
+                </div>
+                <h4>Larry</h4>
+                <p>we are a team</p>
+            </div>
+
+            <div class="container-box">
+                <div class="container-img">
+                    <img src="./img_avatar.png" alt="sample">
+                    
+                </div>
+                <h4>Kent</h4>
+                <p>we are a team</p>
+            </div>
+
+            <div class="container-box">
+                <div class="container-img">
+                    <img src="./img_avatar.png" alt="sample">
+                    
+                </div>
+                <h4>Alex</h4>
+                <p>we are a team</p>
+            </div>
+
+        </div>
+        
+    </section>
+
+    <!-- menu section -->
+    <section class="menu" id="menu">
+      
+
+        <div class="menu-content">
+           
+            <div class="box">
+                
+
+                <div class="thum" data-aos="fade-right">
+                    <h3>Soups </h3>
+                    <img src="./soup.jpg" alt="soup"  data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">
+                    <br><br><br>
+                    <h3>Frieds </h3>
+                    <img src="./fried.jpg" alt="fried"  data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">
+                    <br><br><br>
+                    <h3>Vegan </h3>
+                    <img src="./vegan.jpg" alt="vegan"  data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">
+                    <br><br><br>
+                    <h3>Pasta </h3>
+                    <img src="./pasta.jpg" alt="pasta"  data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">
+                    <br><br><br>
+                    <h3>Steak </h3>
+                    <img src="./steak.jpg" alt="steak"  data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">
+                    <br><br><br>
+                    <h3>Dessert </h3>
+                    <img src="./dessert.jpg" alt="dessert"  data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">
+                </div>
+
+               
+            </div>
+            <!-- <div class="container">
+                <div>
+                  <input type="text"name="search"id="recipesearch" placeholder="Enter a search term" />
+                  <button id="searchBtn">Search</button> <br />
+                  <small id="inputReq"></small>
+                  <br /><br />
+                </div>
+          
+                <div class="searchrecipejs">
+                  <div id="output" 
+                  class="jsout">
+                  </div>
+          
+                  <strong id="searchTitle"></strong>
+                  <br />
+                  <a href="" id="recipeLink"></a><br>
+                </div>
+                    
+                </div> -->
+              
+
+            <div class="search">
+                <form>
+                    <input type="text" placeholder="Search for Recipe">
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+        
+    </section>
+<!-- form -->
+    <section class="newsletter" id="contactUs">
+        <div class="news-text">
+            <h2>Be updated!</h2>
+
+         
+        </div>
+        <div class="send">
+            <form action="https://formspree.io/f/mwkjpdvb" method="POST">
+                <label>Name:</label>
+                <input type="text" name="name" required />
+      
+                <label>Email:</label>
+                <input type="email" name="email" required />
+      
+                <label>Message:</label>
+                <textarea name="message" required></textarea>
+      
+                <button type="submit">Send</button>
+              </form>
+
+        </div>
+
+    
+    </section>
+    <!-- footer -->
+    <section id="contact">
+        <div class="footer">
+            <div class="main">
+                <div class="list">
+                    <h4>Links</h4>
+                    <ul>
+                        <li><a href="#"> About us</a></li>
+                        <li><a href="#"> Terms & Condition</a></li>
+                        <li><a href="#"> Privacy Policy</a></li>
+                        <li><a href="#">Sign up</a></li>
+                    </ul>
+                </div>
+
+                <div class="list">
+                    <h4>Contact info</h4>
+                    <ul>
+                        <li><a href="#">Kodego students Group 7</a></li>
+                        <li><a href="#">Philippines</a></li>
+                        <li><a href="#"> +63 9818 9818</a></li>
+                        <li><a href="#">hak_group7@gmail.com</a></li>
+                    </ul>
+                </div>
+
+                <div class="list">
+                    <h4>Socials</h4>
+                    <ul>
+                        <a href="#"><i class='bx bxl-facebook-square'></i></a>
+                        <a href="#"><i class='bx bxl-instagram'></i></a>
+                        <a href="#"><i class='bx bxl-twitter'></i></a>
+                        <a href="#"><i class='bx bxl-gmail'></i></a>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <div class="end-text">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A, sapiente?</p>
+        </div>
+    </section>
+
+
+
+
+    <!-- js link -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./script.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
